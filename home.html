@@ -19,7 +19,8 @@
 		<ul class="menu__tabs">
 			<li><a class="active" href="#item-1"><i class="fa fa-star"></i> Mis Referidos</a></li>
 			<li><a href="#item-2"><i class="fa fa-link"></i> Mis referidos vinculados </a></li>
-			<li><a href="#item-3"><i class="fa fa-photo"></i> Mis bonos</a></li>
+			<li><a href="#item-3"><i class="fa fa-photo"></i> Agregar nuevo referido</a></li>
+            <li><a href="#item-4"><i class="fa fa-photo"></i> Mis bonos</a></li>
 		</ul>
 		<section class="menu__wrapper">
 			<article id="item-1" class="menu__item item-active">
@@ -70,8 +71,38 @@
 			</article>
 
 			<article id="item-3" class="menu__item">
-				<h3>Contenido Tres</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dignissimos nam dolor est. Ad vel eum voluptates rerum. Harum quia dolore architecto ducimus, rem porro minus perferendis ab eveniet aliquid!</p>
+				<h3>Ingresa los datos de tu nuevo referido</h3>
+                <input type="text"  placeholder="Nombre del referido" required>
+                <input type="email" placeholder="Correo del referido" required>
+                <input type="number" placeholder="Celular del referido" required>
+                <div></div>
+                <input type="radio" ><label for="">Acepto los <a href="/term-conditions.html" target="_blank">términos y condiciones del plan </a></label>
+                <input type="submit" value="Enviar Referido">
+                
+			</article>
+
+            <article id="item-4" class="menu__item">
+				<h3>Mis bonos</h3>
+                <table class="table">
+                    <tr>
+                        <th>Referido</th>
+                        <th>Apartamento</th>
+                        <th>bono</th>
+                    </tr>
+                    <tr>
+                        <td>Juan José Gonzales Pérez</td>
+                        <td>1A</td>
+                        <td>$2.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Juan José Gonzales Pérez</td>
+                        <td>2B</td>
+                        <td>$2.000.000</td>
+                    </tr>
+                </table>
+                <div class="container-total">
+                    <h4>Total: $ 4.000.000</h4>
+                </div>
 			</article>
 		</section>
 		<div class="menu--shadow"></div>

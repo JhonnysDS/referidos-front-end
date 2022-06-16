@@ -11,6 +11,7 @@
     font-family: mst-bold;
     src: url(../fonts/montserrate/Montserrat-Bold.otf); }
 
+
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -70,6 +71,11 @@
     height: 100px;
     width: 220px;
     padding-bottom: 10px;
+}
+
+.ref-login-signup p{
+  margin-top: 10px;
+  font: 1.3em mst-medium;
 }
 
 

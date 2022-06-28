@@ -28,7 +28,7 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .form input, 
-.menu__item input[type="text"], input[type=email], input[type=number] {
+.menu__item input[type="text"], input[type=text], select, input[type=email], input[type=number] {
   font-family: mst-light;
   outline: 0;
   background: #f2f2f2;
@@ -39,7 +39,7 @@
   box-sizing: border-box;
   font-size: 14px;
 }
-.form button, .menu__item input[type=submit] {
+.form button, .menu__item input[type=submit], .update,.table-admin .edit, .table-admin .delete {
   font-family: mst-medium;
   text-transform: uppercase;
   outline: 0;
@@ -52,18 +52,24 @@
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
+  border-radius: 0%;
 }
 .form button:hover,.form button:active,.form button:focus {
   background: rgb(0, 113, 235);
 }
 
-.menu__item input[type=submit] {
+.menu__item input[type=submit], .update ,.table-admin .delete ,.table-admin .edit{
   display: block;
   margin: auto;
   width: auto;
 }
 
-.menu__item input[type=submit]:hover,.menu__item input[type=submit]:active,.menu__item input[type=submit]:focus {
+.menu__item input[type=submit]:hover,
+.menu__item input[type=submit]:active,
+.menu__item input[type=submit]:focus,
+ .table-admin .edit:hover,
+ .table-admin .delete:hover,
+ .update:hover {
   background: rgb(0, 113, 235);
 }
 
@@ -176,7 +182,7 @@ h1 {
 	z-index: 400;
 	background: #FFF;
 	min-height: 300px;
-  min-width: 400px;
+  min-width: 800px;
   
 	-webkit-border-radius: 0 4px 4px 4px;
 	-moz-border-radius: 0 4px 4px 4px;
@@ -224,7 +230,7 @@ h1 {
     margin: 0px 30px;
 	
 }
-.menu__wrapper .menu__item table {
+.menu__wrapper .menu__item table, .table-admin {
     font-family: mst-light;
     display: flex;
     justify-content: center;
@@ -234,14 +240,14 @@ h1 {
     border-collapse:collapse;
     border: none;
 }
-.menu__wrapper .menu__item th{
+.menu__wrapper .menu__item th, .table-admin th{
     color: #FFF;
     background-color: rgb(44, 130, 222);
 }
-.menu__wrapper .menu__item td{
+.menu__wrapper .menu__item td, .table-admin td{
     color: black;
 }
-.menu__wrapper .menu__item th, .menu__wrapper .menu__item td {
+.menu__wrapper .menu__item th, .menu__wrapper .menu__item td, .table-admin th, .table-admin td {
     padding: 15px   ;
 }
 .logotype{
@@ -316,7 +322,11 @@ margin: 10px;
     box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
 }
-
+.container-term .container-term-son h2{
+  font: 1.6em mst-medium;
+  text-align: center;
+  margin: 15px;
+}
 .container-term .container-term-son p{
   text-align: justify;
   font: 13px mst-regular;
@@ -349,4 +359,9 @@ a{
 h1{
   padding: 20px;
   margin-left: 70px;
+}
+
+h2{
+  font: 15px mst-medium;
+  text-align: center;
 }

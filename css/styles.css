@@ -39,7 +39,7 @@
   box-sizing: border-box;
   font-size: 14px;
 }
-.form button, .menu__item input[type=submit], .update,.table-admin .edit, .table-admin .delete {
+.form button, .menu__item input[type=submit],.cancel, .update,.table-admin .edit, .table-admin .delete {
   font-family: mst-medium;
   text-transform: uppercase;
   outline: 0;
@@ -58,7 +58,7 @@
   background: rgb(0, 113, 235);
 }
 
-.menu__item input[type=submit], .update ,.table-admin .delete ,.table-admin .edit{
+.menu__item input[type=submit],.cancel, .update ,.table-admin .delete ,.table-admin .edit{
   display: block;
   margin: auto;
   width: auto;
@@ -69,7 +69,8 @@
 .menu__item input[type=submit]:focus,
  .table-admin .edit:hover,
  .table-admin .delete:hover,
- .update:hover {
+ .update:hover,
+ .cancel:hover{
   background: rgb(0, 113, 235);
 }
 
@@ -364,4 +365,11 @@ h1{
 h2{
   font: 15px mst-medium;
   text-align: center;
+}
+
+.buttons-edit{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

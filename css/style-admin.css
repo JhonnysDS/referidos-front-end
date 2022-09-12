@@ -284,6 +284,7 @@ article.card{
     color: black;
     cursor: pointer;
     font :1rem mst-light;
+    margin-bottom: 10px;
 }
 
 .form-submit{

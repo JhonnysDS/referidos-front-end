@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-admin.css">
+    
+    <title>Zona Administrativa</title>
+</head>
+<body>
+   <header class="header">
+        <div class="logo">
+            <img src="/imagenes/Logo blue.png" alt="Logo Inciti">
+        </div>
+        <button class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="container-links-button">
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li class="li"><a href="/Index-administrador.html">Proyectos</a></li>
+                    <li class="li"><a href="/add-project-refered.html">Agregar nuevo Proyecto</a></li>
+                </ul>
+            </nav>
+        <a href="" class="btn"><button>Cerrar Sesion</button></a>
+        </div>
+   </header>
+
+   <div class="general-title">
+        <h1>Proyectos</h1>
+    </div>
+
+    <section class="section-form">
+        <div class="div-form">
+            <form class="form" action="">
+                <p class="form-paragraph">Por favor, ingresa los datos.</p>
+                <div class="form-container">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nombre del Proyecto</label>
+                        <input type="text" id="name" name="name" class="form-input">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="imagen" class="form-label label-description">Elegir imagen</label>
+                        <input type="file" id="imagen" name="imagen" class="form-input descripcion">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="description" class="form-label">descripcion del proyecto</label>
+                        <textarea name="description" id="description" class="form-input" cols="30" rows="10"></textarea>
+                        <span class="form-line"></span>
+                    </div>
+
+                    <input type="submit" class="form-submit" value="Agregar proyecto">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="https://kit.fontawesome.com/e2b75f306c.js" crossorigin="anonymous"></script>
+<script src="/js/navbar-responsive.js"></script>
+</html>

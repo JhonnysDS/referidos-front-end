@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-admin.css">
+    
+    <title>Agregar proyecto - Zona Administrativa</title>
+</head>
+<body>
+   <header class="header">
+        <div class="logo">
+            <img src="/imagenes/Logo blue.png" alt="Logo Inciti">
+        </div>
+        <button class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="container-links-button">
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li class="li"><a href="/Index-administrador.html">Inicio</a></li>
+                    <li class="li"><a href="/add-project-refered.html">Mis referidos</a></li>
+                    <li class="li"><a href="/add-project-refered.html">Mis referidos vinculados</a></li>
+                    <li class="li"><a href="/add-project-refered.html">Agregar Nuevo Referido</a></li>
+                    <li class="li"><a href="/add-project-refered.html">Mis bonos</a></li>
+                </ul>
+            </nav>
+        <a href="" class="btn"><button>Cerrar Sesion</button></a>
+        </div>
+   </header>
+
+   <div class="general-title">
+        <h1>Agregar Nuevo referido</h1>
+    </div>
+
+    <section class="section-form">
+        <div class="div-form">
+            <form class="form" action="">
+                <p class="form-paragraph">Por favor, ingresa los datos.</p>
+                <div class="form-container">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nombre del Referido</label>
+                        <input type="text" id="name" name="name" class="form-input">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Número de contacto del referido</label>
+                        <input type="number" id="name" name="name" class="form-input">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Correo de contacto del referido</label>
+                        <input type="email" id="name" name="name" class="form-input">
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="check-term" name="check-term"><label class="check-text" for="check-term">  Acepto los <a href="/term-conditions.html" target="_blank">términos y condiciones del plan.</a></label>
+                    </div>
+                    <input type="submit" class="form-submit" value="Agregar proyecto">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="https://kit.fontawesome.com/e2b75f306c.js" crossorigin="anonymous"></script>
+<script src="/js/navbar-responsive.js"></script>
+</html>

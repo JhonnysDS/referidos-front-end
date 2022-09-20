@@ -300,7 +300,7 @@ a.button-link{
 
 }
 
-.form-input, .label-description{
+.form-input, .label-description, .select-quote{
     width: 90%;
     background: none;
     color: #706c6c;
@@ -310,7 +310,7 @@ a.button-link{
     border-radius: 7px;
     font :1rem mst-light;
 }
-.form-input:focus{
+.form-input:focus, .form-input:focus{
     outline: none;
     border-color: #9ecaed; 
     box-shadow: 0 0 10px #9ecaed;

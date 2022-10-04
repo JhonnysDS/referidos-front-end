@@ -483,3 +483,48 @@ border: 1px solid rgb(198, 196, 196);
 
 
 
+/*-------------ESTILOS DE BANNER ----------------*/
+.section-overall-banner{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.div-btn-close img{
+    width: 35px;
+    margin: 15px;
+    position: relative;
+    border-radius: 50px;
+
+}
+
+.div-tittles h1, .div-tittles h2{
+    color: white;
+    font-family: mst-light;
+
+}
+
+.div-tittles h1{
+    font-size: 60px;
+    padding-bottom: 45px; ;
+}
+.div-tittles h2{
+    font-size: 30px;
+    padding-bottom: 35px; ;
+}
+
+.div-button a{
+    color: white;
+    background-color: rgb(20, 33, 57);
+    font: 20px mst-light;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.div-tittles, .div-button{
+    text-align: center;
+    padding: 25px;
+
+}
